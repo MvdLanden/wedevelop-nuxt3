@@ -8,5 +8,9 @@
 </template>
 
 <script setup>
-    const isLight = computed(() => (something ? true : false));
+    const pageSettings = {
+        headerLight: true
+    }
+
+    const isLight = computed(() => (headerLight ? true : false));
 </script>
