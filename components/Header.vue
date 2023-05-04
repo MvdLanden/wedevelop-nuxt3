@@ -10,7 +10,7 @@
                         </li>
                     </ul>
                 </nav>
-                <Button link="/" class="justify-self-end" menuToggle>Button</Button>
+                <Button href="/" class="justify-self-end" menuToggle>Button</Button>
             </div>
         </div>
     </header>
