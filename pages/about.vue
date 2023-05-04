@@ -6,6 +6,9 @@
 </template>
 
 <script setup>
-    const header = useHeaderLight()
-    header.value = true
+    const header = useHeaderLight();
+
+    onMounted(() => {
+        header.value = true;
+    });
 </script>
